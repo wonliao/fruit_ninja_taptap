@@ -1,0 +1,44 @@
+
+html, body{
+	width: 100%;
+	height: 100%;
+	background: #484848;
+}
+
+body{
+	position: relative;
+	margin: 0;
+}
+
+em{
+	display: none;
+}
+
+#extra, #view{
+	position: absolute;
+	left: 0%;
+	top: 0%;
+	width: 100%;
+	height: 100%;
+}
+
+#view{
+	display: block;
+	background: transparent url(blank.gif) repeat 0 0;
+	cursor: default;
+	z-index: 20;
+}
+
+#extra{
+	background: #000;
+}
+
+#extra .layer{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+}
+
